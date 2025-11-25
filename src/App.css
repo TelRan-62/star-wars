@@ -1,39 +1,39 @@
-header, footer {
-    background-color: var(--bg-color-grey);
-}
+/*header, footer {*/
+/*    background-color: var(--bg-color-grey);*/
+/*}*/
 
-/* Header */
+/*!* Header *!*/
 
-/* Main */
+/*!* Main *!*/
 
-main > .float-start {
-    box-shadow: 0.6rem 0.6rem 0.6rem var(--bg-color-grey);
-}
+/*main > .float-start {*/
+/*    box-shadow: 0.6rem 0.6rem 0.6rem var(--bg-color-grey);*/
+/*}*/
 
-.far-galaxy {
-    font-size: 1.8em;
-    letter-spacing: 0.1em;
-    line-height: 1.5;
-    text-align: justify;
-}
+/*.far-galaxy {*/
+/*    font-size: 1.8em;*/
+/*    letter-spacing: 0.1em;*/
+/*    line-height: 1.5;*/
+/*    text-align: justify;*/
+/*}*/
 
-.rounded-bottom-left {
-    border-bottom-left-radius: 1rem;
-}
+/*.rounded-bottom-left {*/
+/*    border-bottom-left-radius: 1rem;*/
+/*}*/
 
-.rounded-bottom-right {
-    border-bottom-right-radius: 1rem;
-}
+/*.rounded-bottom-right {*/
+/*    border-bottom-right-radius: 1rem;*/
+/*}*/
 
-/* Footer */
+/*!* Footer *!*/
 
-footer {
-    height: 5rem;
-}
+/*footer {*/
+/*    height: 5rem;*/
+/*}*/
 
-/* Customizing */
+/*!* Customizing *!*/
 
-.btn-danger {
-    background-color: rgba(204, 3, 35, 0.5);
-    color: var(--color-main);
-}
+/*.btn-danger {*/
+/*    background-color: rgba(204, 3, 35, 0.5);*/
+/*    color: var(--color-main);*/
+/*}*/

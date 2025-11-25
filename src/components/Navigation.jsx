@@ -3,10 +3,8 @@ import {navItems} from "../utils/constants.js";
 
 const Navigation = () => {
     return (
-        <nav className="fixed-top">
-            <ul className="nav mt-2 ms-5">
-                {navItems.map(item => <NavItem itemTitle={item} key={item}/>)}
-            </ul>
+        <nav className="fixed top-2 left-12 flex gap-4">
+            {navItems.map(item => <NavItem itemTitle={item} key={item}/>)}
         </nav>
     )
 }

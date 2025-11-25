@@ -4,7 +4,7 @@ import OpeningCrawl from "./OpeningCrawl.jsx";
 
 const Home = () => {
     return (
-        <main className="clearfix">
+        <main>
             <Hero/>
             <DreamTeam/>
             <OpeningCrawl/>
