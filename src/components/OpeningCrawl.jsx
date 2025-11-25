@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import {base_url} from "../utils/constants.js";
+import Text from "./ui/Text.jsx";
 
 const OpeningCrawl = () => {
     const [openingCrawl, setOpeningCrawl] = useState(() => sessionStorage.getItem('opening_crawl'));
@@ -17,17 +18,7 @@ const OpeningCrawl = () => {
         }
     }, [openingCrawl])
 
-    if (openingCrawl) {
-        return (
-            <p className="text-[2rem] text-justify tracking-[0.1em] leading-[1.5]">{openingCrawl}</p>
-        )
-    } else {
-        return (
-            <p className="text-[2rem] text-justify tracking-[0.1em] leading-[1.5]">
-                Loading...
-            </p>
-        )
-    }
+    return <Text>{openingCrawl || 'Loading'}</Text>
 }
 
 export default OpeningCrawl;
